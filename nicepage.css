@@ -44401,11 +44401,14 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 575px) {
+   .u-header {
+    min-height: 103px;
+  }
+
   .u-header .u-text-1 {
-    font-size: 3rem;
     width: auto;
-    margin-left: calc(((100% - 340px) / 2)  + -20px);
-    margin-right: calc(((100% - 340px) / 2)  + -20px);
+    font-size: 2.25rem;
+    margin: 25px 0 0;
   }
 }
  .u-footer {
